@@ -1,0 +1,13 @@
+run = ["bash", "main.sh"]
+language = "bash"
+entrypoint = "main.sh"
+
+[env]
+DB_TYPE="sqlite3"
+DB_HOST="sql.com"
+DB_PORT="3306"
+DB_USER="blist"
+DB_PASS="password"
+DB_NAME="blist"
+DB_TABLE_PREFIX="blist_"
+DB_SLL_MODE="true"
